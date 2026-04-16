@@ -278,7 +278,7 @@ class ModernIMSDashboard:
     def update_time(self):
         self.lbl_clock.config(
             text=f"📅 {time.strftime('%d %B, %Y')}  |  🕒 {time.strftime('%I:%M:%S %p')}")
-        self.lbl_clock.after(1000, self.update_time)
+        self.lbl_clock.after(1000, self.update_time) 
 
     # ═══════════════════════════════════════════════════════════════════
     # DASHBOARD HOME
